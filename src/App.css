@@ -4,13 +4,10 @@
   font-family: 'Poppins', sans-serif;
   /* font-family: "Roboto Condensed", sans-serif; */
 }
-html{
-  height: -webkit-fill-available;
-}
+
 body {
   height: -webkit-fill-available;
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 100dvh;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -25,7 +22,7 @@ body {
 
 .container {
   position: relative;
-  height: 100vh;
+  height: 100dvh;
   width: 350px;
   padding: 20px;
   background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100% ) ;
