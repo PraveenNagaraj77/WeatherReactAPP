@@ -196,7 +196,7 @@ function App() {
         {cityNotFound && <div className="city-not-found">City not found</div>}
 
         <p className="copyright">
-          Designed by <span>Praveen Nagaraj</span>
+          Designed by..  <span>Praveen Nagaraj</span>
         </p>
       </div>
     </>
