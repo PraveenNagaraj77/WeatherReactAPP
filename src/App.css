@@ -169,22 +169,18 @@ body {
 @media only screen and (max-width: 600px) {
   .container {
     width: 90%;
-    max-width: 90%;
-    height: auto;
+    height: 630px;
   }
 
   .input-container {
     width: 90%;
-    max-width: 90%;
   }
 
   .cityInput {
-    width: calc(100% - 20px); /* Adjust input width */
+    width: calc(100% - 20px);
   }
 
   .search-icon {
-    margin-left: -40px; /* Adjust icon position */
+    margin-left: -40px;
   }
 }
-
-/* Media query for large screens */
