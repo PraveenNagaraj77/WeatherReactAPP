@@ -17,12 +17,13 @@ body {
 
 .container {
   position: relative;
-  height: 100vh;
   width: 350px;
+  max-height: 100vh; /* Maximum height of viewport */
   padding: 20px;
   background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .input-container {
@@ -169,7 +170,8 @@ body {
 @media only screen and (max-width: 600px) {
   .container {
     width: 90%;
-    height: 100vh;
+    max-height: none; /* Remove max-height for smaller screens */
+    height: 100vh; /* Set height to 100% viewport height */
   }
 
   .input-container {
