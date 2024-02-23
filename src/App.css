@@ -10,7 +10,6 @@ body {
   padding: 0;
   height: 100vh;
   background-color: #eee;
-  /* background-color: #2f3640; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,13 +56,6 @@ body {
   border-radius: 40px;
   cursor: pointer;
 }
-.search-icon img {
-  margin: 5px;
-}
-
-/* 
-Interior design
-*/
 
 .image {
   text-align: center;
@@ -85,6 +77,7 @@ Interior design
   text-transform: uppercase;
   text-align: center;
 }
+
 .temp {
   font-weight: 500;
 }
@@ -153,6 +146,7 @@ Interior design
 
 .copyright {
   text-align: center;
+  align-items: center;
   font-size: 12px;
   color: #eee;
 }
@@ -171,18 +165,26 @@ Interior design
   text-align: center;
 }
 
-/* media queires */
-@media only screen and (max-width: 340px) {
-  .input-container {
-    width: 280px;
-    margin: 25px;
-  }
-  .search-icon {
-    position: absolute;
-    right: 0px;
-  }
-  .data-container {
-    margin: 30px;
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    max-width: 90%;
+    height: auto;
   }
 
+  .input-container {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .cityInput {
+    width: calc(100% - 20px); /* Adjust input width */
+  }
+
+  .search-icon {
+    margin-left: -40px; /* Adjust icon position */
+  }
 }
+
+/* Media query for large screens */
